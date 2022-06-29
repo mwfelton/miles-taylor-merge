@@ -1,0 +1,97 @@
+{
+    "view": {
+      "header": "",
+      "return_to_list": "",
+      "created_on": "",
+      "last_orders": "",
+      "billing_information": "",
+      "payment_information": "",
+      "billing_address": "",
+      "shipping_address": "",
+      "next_order": "",
+      "frequency": {
+        "header": "",
+        "minute": {
+          "one": "",
+          "other": ""
+        },
+        "hour": {
+          "one": "",
+          "other": ""
+        },
+        "day": {
+          "one": "",
+          "other": ""
+        },
+        "week": {
+          "one": "",
+          "other": ""
+        },
+        "week_weekday": {
+          "one": "",
+          "other": ""
+        },
+        "month": {
+          "one": "",
+          "other": ""
+        },
+        "month_day": {
+          "one": "",
+          "other": ""
+        },
+        "year": {
+          "one": "",
+          "other": ""
+        }
+      },
+      "address": {
+        "first_name": "",
+        "last_name": "",
+        "company": "",
+        "address": "",
+        "city": "",
+        "country": "",
+        "province": "",
+        "postal_code": "",
+        "phone": ""
+      },
+      "button": {
+        "suspend": "",
+        "reactivate": "",
+        "terminate": "",
+        "edit": "",
+        "cancel": "",
+        "update": ""
+      },
+      "column": {
+        "product": "",
+        "price": "",
+        "quantity": "",
+        "order": "",
+        "date": "",
+        "payment_status": "",
+        "fulfillment_status": "",
+        "total": ""
+      },
+      "info": {
+        "terminated": "",
+        "terminating": {
+          "zero": "",
+          "other": ""
+        },
+        "suspended_reactivate": "",
+        "suspended_terminate": ""
+      },
+      "terminate": {
+        "header": "",
+        "info": "",
+        "missing_cycles": ""
+      },
+      "suspend": {
+        "header": "",
+        "input_label": "",
+        "info": ""
+      }
+    }
+  }
+

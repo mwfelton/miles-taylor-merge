@@ -1,0 +1,96 @@
+{
+      "view": {
+        "header": "Spar-Abo #{{ id }}",
+        "return_to_list": "Zurück zur Abo-liste",
+        "created_on": "Erstellt am {{ createdOn }}",
+        "last_orders": "Letzte Bestellungen",
+        "billing_information": "Rechnungsdaten ",
+        "payment_information": "Zahlungsdaten",
+        "billing_address": "Rechnungsadresse",
+        "shipping_address": "Lieferadresse",
+        "next_order": "Nächste Bestellung:",
+        "frequency": {
+          "header": "Lieferung:",
+          "minute": {
+            "one": "Jede Minute",
+            "other": "alle {{ count }} Minuten"
+          },
+          "hour": {
+            "one": "Jede Stunde",
+            "other": "alle {{ count }} Stunden"
+          },
+          "day": {
+            "one": "Täglich",
+            "other": "alle {{ count }} Tage"
+          },
+          "week": {
+            "one": "Wöchentlich",
+            "other": "alle {{ count }} Wochen"
+          },
+          "week_weekday": {
+            "one": "Wöchentlich an einem {weekday}",
+            "other": "alle {{ count }} Wochen an einem {{ weekday }}"
+          },
+          "month": {
+            "one": "Monatlich",
+            "other": "alle {{ count }} Monate"
+          },
+          "month_day": {
+            "one": "Monatlich an Tag {dayOfMonth} des Monats",
+            "other": "alle {{ count }} Monate an Tag {{ dayOfMonth }} des Monats"
+          },
+          "year": {
+            "one": "Jährlich",
+            "other": "Alle {{ count }} Jahre"
+          }
+        },
+        "address": {
+          "first_name": "Vorname",
+          "last_name": "Nachname",
+          "company": "Firma",
+          "address": "Addresse",
+          "city": "Stadt",
+          "country": "Land",
+          "province": "Region",
+          "postal_code": "Postleitzahl",
+          "phone": "Telefon"
+        },
+        "button": {
+          "suspend": "Pausieren",
+          "reactivate": "Reactivieren",
+          "terminate": "Beenden",
+          "edit": "Bearbeiten",
+          "cancel": "Beenden",
+          "update": "Aktualisieren"
+        },
+        "column": {
+          "product": "Produkt",
+          "price": "Preis",
+          "quantity": "Menge",
+          "order": "Preis",
+          "date": "Datum",
+          "payment_status": "Zahlungsstatus",
+          "fulfillment_status": "Erfüllungsstatus",
+          "total": "Summe"
+        },
+        "info": {
+          "terminated": "Das Spar-Abo wurde beendet am {{ terminatedOn }}.",
+          "terminating": {
+            "zero": "Die Beendigung des Spar-Abos wurde beantragt.",
+            "other": "Das Spar-Abo wird nach {{ count }} weiteren Bestellungen beendet."
+          },
+          "suspended_reactivate": "Das Spar-Abo wurde pausiert und wird am {{ plannedEndDate }} reaktiviert.",
+          "suspended_terminate": "Das Spar-Abo wurde pausiert und wird am {{ plannedEndDate }} beendet."
+        },
+        "terminate": {
+          "header": "Du bist dabei das Spar-Abo zu beenden.",
+          "info": "Dies kann nicht rückgängig gemacht werden.",
+          "missing_cycles": "Das Spar-Abo läuft für {{ missingCyclesToTermination }} weitere Bestellungen, nachdem die Beendigung beantragt wurde."
+        },
+        "suspend": {
+          "header": "Du bist dabei das Spar-Abo zu pausieren.",
+          "input_label": "Gib an, bis wann das Spar-Abo pausiert werden soll:",
+          "info": "Solange das Spar-Abo pausiert ist, werden keine weiteren Bestellungen erstellt."
+        }
+      }
+    }
